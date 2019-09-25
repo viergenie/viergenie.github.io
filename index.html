@@ -3,14 +3,36 @@
 <html>
 
 <head>
-
+    <link rel="stylesheet" href="css/style.min.css" />
     <title>mon site</title>
+
 
 </head>
 
 <body>
     <h1>Mon portfolio</h1>
-
+    <p>Dans mon portfolio vous trouverez tous ce qu'il faut</p><br><br>
+    <h2>Coordonées</h2>
+    <ul>
+        <li>Tel:0694 96 28 67</li>
+        <li>Adresse:Cayenne </li>
+        <li>Mail:viergeniejl29@gmail.com</li>
+    </ul>
+    <h2>Formulaire de contact</h2>
+    <form action="/ma-page-de-traitement" method="post">
+        <div>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="user_name">
+        </div>
+        <div>
+            <label for="mail">e-mail :</label>
+            <input type="email" id="mail" name="user_mail">
+        </div>
+        <div>
+            <label for="msg">Message :</label>
+            <textarea id="msg" name="user_message"></textarea>
+        </div>
+    </form>
 </body>
 
 </html
